@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "webpack --config webpack.build.js",
     "serve": "webpack serve --config webpack.build.js",
     "json-server": "json-server --watch db.json --port 3001 --static dist"
   },
@@ -38,11 +37,7 @@
     "webpack-cli": "4.9.2",
     "webpack-dev-server": "^4.7.4"
   },
-  "browserslist": [
-    ">1%",
-    "last 4 version",
-    "not dead"
-  ],
+  "browserslist": [">1%", "last 4 version", "not dead"],
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "axios": "^0.26.0",
